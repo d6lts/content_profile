@@ -13,7 +13,7 @@ class content_profile_theme_variables {
   var $uid;
   var $_cache = array();
 
-  function content_profile_theme_variables($uid) {
+  function __construct($uid) {
     $this->uid = $uid;
   }
 
@@ -21,7 +21,7 @@ class content_profile_theme_variables {
    * Gets the user id of the profiles owner.
    */
   function get_uid() {
-    return $uid;
+    return $this->uid;
   }
 
   /**
