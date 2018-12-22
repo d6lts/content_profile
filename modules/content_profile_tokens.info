@@ -5,3 +5,9 @@ dependencies[] = content_profile
 dependencies[] = token
 dependencies[] = content
 core = 6.x
+
+; Information added by Drupal 6 LTS vendors on 2018-12-22
+version = "6.x-1.1"
+core = "6.x"
+project = "content_profile"
+datestamp = "1545507480"
